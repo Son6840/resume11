@@ -1,6 +1,6 @@
 *{margin:0; padding:0;}
 h2{font-size: 30px;font-weight: lighter;border-bottom: 1px solid rgba(66, 66, 66,0.1);padding-bottom: 10px;margin-bottom: 20px;}
-.main{width:610px;padding:30px;margin:30px;border: 1px solid #c9c9c9;margin:0 auto;box-shadow: 0 1px 20px 0 rgba(0,0,0,0.1);color:#282828;}
+.main{width:610px;padding:30px;margin:30px;border: 1px solid #c9c9c9;margin:0 auto;box-shadow: 0 1px 20px 0 rgba(0,0,0,0.1);color:#282828;font-family: Montserrat;}
 .title-box{text-align: right;margin-bottom: 20px;}
 .sns-img{margin :20px 10px;}
 .profile{display: inline;float: left;}
