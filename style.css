@@ -7,7 +7,7 @@ h2{font-size: 30px;font-weight: lighter;border-bottom: 1px solid rgba(66, 66, 66
 .title-text{float:left; font-size: 18px; font-weight: bold;margin: 10px;}
 .year-text{float: right; font-style: italic;padding-right:20px;}
 .float-wrap{overflow: hidden;}
-.desc-text{padding:10px 0 20px 20px;}
+.desc-text{padding:10px 0 20px 20px; font-size: 13px;}
 .graph{width: 480px;height: 30px;background: #ccc;border-radius: 15px;float: right;}
 .graph div{display: block;height : 30px;border-radius: 15px;}
 .graph p{padding-right: 10px;text-align: right;line-height: 30px;color: #f4f4f4;font-style: italic;}
@@ -41,7 +41,7 @@ h2{font-size: 30px;font-weight: lighter;border-bottom: 1px solid rgba(66, 66, 66
 .stack4{animation: stack4 2s 1;background: #faf600;width: 30%;}
 
 .introduction p{font-size: 18px;font-weight: bold;margin: 0 0 0 10px ;}
-.introduction li{margin: 20px 30px 20px 50px;}
+.introduction li{margin: 20px 30px 20px 50px; font-size: 13px;}
 
 .introduction a{padding: 50px; color: rgb(209, 90, 60);text-decoration: none;}
 .introduction a:hover{text-decoration: underline;color:rgb(112, 26, 0)}
