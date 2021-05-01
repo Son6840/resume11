@@ -1,0 +1,52 @@
+*{margin:0; padding:0;}
+h2{font-size: 30px;font-weight: lighter;border-bottom: 1px solid rgba(66, 66, 66,0.1);padding-bottom: 10px;margin-bottom: 20px;}
+.main{width:610px;padding:30px;margin:30px;border: 1px solid #c9c9c9;margin:0 auto;box-shadow: 0 1px 20px 0 rgba(0,0,0,0.1);color:#282828;}
+.title-box{text-align: right;margin-bottom: 20px;}
+.sns-img{margin :20px 10px;}
+.profile{display: inline;float: left;}
+.title-text{float:left; font-size: 18px; font-weight: bold;margin: 10px;}
+.year-text{float: right; font-style: italic;padding-right:20px;}
+.float-wrap{overflow: hidden;}
+.desc-text{padding:10px 0 20px 20px;}
+.graph{width: 480px;height: 30px;background: #ccc;border-radius: 15px;float: right;}
+.graph div{display: block;height : 30px;border-radius: 15px;}
+.graph p{padding-right: 10px;text-align: right;line-height: 30px;color: #f4f4f4;font-style: italic;}
+.skill img {float: left;display: block; padding-left: 5px;margin-top: 10px;}
+.wrap-graph{margin:30px 30px 0 0; }
+@keyframes stack1{
+    0% {width:0; color: rgba(255,255,255,0)}
+    40%{color: rgba(255,255,255,1);}
+    100% {width:75%;}
+}
+@keyframes stack2{
+    0% {width:0; color: rgba(255,255,255,0)}
+    40%{color: rgba(255,255,255,1);}
+    100% {width:55%;}
+}
+@keyframes stack3{
+    0% {width:0; color: rgba(255,255,255,0)}
+    40%{color: rgba(255,255,255,1);}
+    100% {width:40%;}
+}
+@keyframes stack4{
+    0% {width:0; color: rgba(255,255,255,0)}
+    40%{color: rgba(255,255,255,1);}
+    100% {width:30%;}
+}
+
+.stack1{animation: stack1 2s 1;background: #df5959;width: 75%;}
+.stack2{animation: stack2 2s 1;background: #48ad59;width: 55%;}
+.stack3{animation: stack3 2s 1;background: #eb9a4f;width: 40%;}
+.stack5{animation: stack3 2s 1;background: #268adb;width: 40%;}
+.stack4{animation: stack4 2s 1;background: #faf600;width: 30%;}
+
+.introduction p{font-size: 18px;font-weight: bold;margin: 0 0 0 10px ;}
+.introduction li{margin: 20px 30px 20px 50px;}
+
+.introduction a{padding: 50px; color: rgb(209, 90, 60);text-decoration: none;}
+.introduction a:hover{text-decoration: underline;color:rgb(112, 26, 0)}
+.sns-img a>img:hover{transform: scale(1.4); transition-duration:0.2s;}
+
+
+footer{text-align: center;background: #1e1e1e;padding: 20px;font-size: 12px; color: #b3b3b3;}
+  
